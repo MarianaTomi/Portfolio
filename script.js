@@ -149,7 +149,7 @@ form?.addEventListener('submit', e => {
 // ── Keyboard E = email ────────────────────────────────────────
 window.addEventListener('keydown', e => {
   if (e.key.toLowerCase() === 'e' && !/input|textarea/i.test(document.activeElement.tagName)) {
-    window.location.href = 'mailto:marianaatom@outlook.com';
+    window.location.href = 'mailto:marianaatom@outlook.com'; 
   }
 });
 
